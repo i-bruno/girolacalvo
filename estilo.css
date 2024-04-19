@@ -29,11 +29,11 @@ body {
   margin:1rem;
 }
 
-.accordion-button:not(.collapsed){
+/* .accordion-button:not(.collapsed){
   background-color:rgb(245, 223, 29)!important;
   border-color:rgb(245, 223, 29)!important;
 }
 
 .accordion-button:focus{
   border-color:rgb(245, 223, 29)!important;
-}
+} */
