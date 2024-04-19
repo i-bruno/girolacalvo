@@ -10,7 +10,7 @@
     }
 
     // Definimos las fechas futuras
-    let pujoleadaFecha = new Date('2024-05-25');
+    let pujoleadaFecha = new Date('2024-09-25');
     let festitapJunioFecha = new Date('2024-06-28');
     let ecunhiFecha = new Date('2024-10-05');
     let festitapDiciembreFecha = new Date('2024-12-13');
