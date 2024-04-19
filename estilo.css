@@ -7,4 +7,5 @@
     animation: 3s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
+    width: 10vw;
 }
