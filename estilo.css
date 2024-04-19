@@ -21,6 +21,6 @@ body {
     animation: 5s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    width: 50vw;
+    width: 45vw;
     border-radius: 50px;
 }
