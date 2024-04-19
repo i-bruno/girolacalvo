@@ -8,7 +8,8 @@ body {
   min-height: 100vh;
   background: #fefefe;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
+  align-items: center; 
 }
 
 @keyframes rotate {from {transform: rotate(0deg);}
@@ -20,6 +21,6 @@ body {
     animation: 5s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    width: 40vw;
+    width: 50vw;
     border-radius: 50px;
 }
