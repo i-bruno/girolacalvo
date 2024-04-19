@@ -13,5 +13,11 @@
 
 body{
   background: #fefefe;
-  height: 100%;
+  display: flex;
+}
+
+.contenedor-logo{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
 }
