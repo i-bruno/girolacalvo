@@ -40,6 +40,8 @@ body {
 
 .list-group-item.active{
   background-color: #d1e7dd!important;
+  color: black!important;
+  border-color: #d1e7dd!important;
 }
 
 /* .accordion-button:not(.collapsed){
