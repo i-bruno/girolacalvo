@@ -29,6 +29,15 @@ body {
   margin:1rem;
 }
 
+.accordion-button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-button::after{
+  margin-left: 1rem;
+}
+
 /* .accordion-button:not(.collapsed){
   background-color:rgb(245, 223, 29)!important;
   border-color:rgb(245, 223, 29)!important;
