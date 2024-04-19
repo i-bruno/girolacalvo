@@ -10,7 +10,7 @@ function calcularDiferenciaEnDias(fechaFutura) {
 }
 
 let fechas = [
-    { fecha: new Date('2024-05-25'), badgeId: 'pujoleada-badge' },
+    { fecha: new Date('2024-09-25'), badgeId: 'pujoleada-badge' },
     { fecha: new Date('2024-06-28'), badgeId: 'festitap-junio-badge' },
     { fecha: new Date('2024-10-05'), badgeId: 'ecunhi-badge' },
     { fecha: new Date('2024-12-13'), badgeId: 'festitap-diciembre-badge' }
