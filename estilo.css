@@ -14,10 +14,5 @@
 body{
   background: #fefefe;
   display: flex;
-  
-}
-
-.contenedor-logo{
-  display:flex;
   justify-content: center;
 }
