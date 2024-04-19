@@ -8,4 +8,9 @@
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
     width: 30vw;
+    border-radius: 50px;
+}
+
+body{
+  background-color: #483285;
 }
