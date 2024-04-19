@@ -24,3 +24,7 @@ body {
     width: 38vw;
     border-radius: 50px;
 }
+
+.accordion-button:not(.collapsed){
+  background-color:blueviolet;
+}
