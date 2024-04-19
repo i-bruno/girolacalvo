@@ -92,7 +92,7 @@
             listaLi[0].classList.remove('active');
         } else {
             // Mostramos los días restantes en el badge
-            document.getElementById('ecunhi-badge').innerText = festitapDiciembreDias + ' días';
+            document.getElementById('festitap-diciembre-badge').innerText = festitapDiciembreDias + ' días';
         }
 
 
