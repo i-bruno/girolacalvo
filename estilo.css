@@ -58,4 +58,8 @@ body {
   .logoTap{
     width: 10vw;
   }
+
+  .seccionHome{
+    width: 100%;
+  }
 }
