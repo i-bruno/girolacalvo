@@ -52,6 +52,9 @@ body {
 
 
 @media (min-width: 1250px) {
+  body{
+    width: 100%;
+  }
   .logoTap{
     width: 10vw;
   }
