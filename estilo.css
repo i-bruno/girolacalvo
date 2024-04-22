@@ -89,6 +89,12 @@ body {
   .seccionHome{
     width: 100%;
   }
+
+  .accordion-body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
 }
 
 @media (min-width: 1440px) {
@@ -101,6 +107,12 @@ body {
 
   .seccionHome{
     width: 100%;
+  }
+
+  .accordion-body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 
@@ -116,5 +128,11 @@ body {
 
   .seccionHome{
     width: 100%;
+  }
+
+  .accordion-body{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
