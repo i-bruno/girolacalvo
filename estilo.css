@@ -67,7 +67,7 @@ body {
 
 
 /* Color del botón, cuando está el desplegado abierto */
-.accordion-button->.collapsed{
+.collapsed{
   background-color:white!important;
   border-color:white!important;
 }
