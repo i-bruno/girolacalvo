@@ -50,22 +50,6 @@ body {
   width: 25vw;
 }
 
-/* bg-danger-subtle */
-.rojoSuave{
-  background-color: aqua!important;
-}
-
-/* bg-warning-subtle */
-.amarilloSuave{
-  background-color: rgb(9, 255, 0)!important;
-}
-
-/* bg-success-subtle */
-.verdeSuave{
-  background-color: rgb(255, 0, 191)!important;  
-}
-
-
 /* Color del botón, cuando está el desplegado abierto */
 .collapsed{
   background-color:white!important;
