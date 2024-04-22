@@ -52,17 +52,17 @@ body {
 
 /* bg-danger-subtle */
 .rojoSuave{
-  background-color: aqua;
+  background-color: aqua!important;
 }
 
 /* bg-warning-subtle */
 .amarilloSuave{
-  background-color: rgb(9, 255, 0);
+  background-color: rgb(9, 255, 0)!important;
 }
 
 /* bg-success-subtle */
 .verdeSuave{
-  background-color: rgb(255, 0, 191);  
+  background-color: rgb(255, 0, 191)!important;  
 }
 
 
