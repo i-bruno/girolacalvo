@@ -25,6 +25,9 @@ body {
     border-radius: 50px;
 }
 
+.logoHeader{
+  display:none;
+}
 .accordion{
   margin:1rem;
 }
