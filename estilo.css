@@ -51,6 +51,59 @@ body {
 }
 
 
+/* Diseños responsives */
+@media (min-width: 720px) {
+  body{
+    width: 720px;
+  }
+  .logoTap{
+    width: 10vw;
+  }
+
+  .seccionHome{
+    width: 100%;
+  }
+}
+
+@media (min-width: 720px) {
+  body{
+    width: 720px;
+  }
+  .logoTap{
+    width: 10vw;
+  }
+
+  .seccionHome{
+    width: 100%;
+  }
+}
+
+@media (min-width: 1366px) {
+  body{
+    width: 1366px;
+  }
+  .logoTap{
+    width: 10vw;
+  }
+
+  .seccionHome{
+    width: 100%;
+  }
+}
+
+@media (min-width: 1440px) {
+  body{
+    width: 1440px;
+  }
+  .logoTap{
+    width: 10vw;
+  }
+
+  .seccionHome{
+    width: 100%;
+  }
+}
+
 @media (min-width: 1920px) {
   body{
     width: 1920px;
