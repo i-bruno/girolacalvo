@@ -50,9 +50,7 @@ body {
   width: 25vw;
 }
 
-
-
 .accordion-button:not(.collapsed){
-  background-color:rgb(245, 223, 29)!important;
-  border-color:rgb(245, 223, 29)!important;
+  background-color:white!important;
+  border-color:white!important;
 }
