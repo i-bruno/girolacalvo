@@ -111,6 +111,10 @@ body {
   body{
     width: 1920px;
   }
+
+  .logoHeader{
+    display:block;
+  }
   .logoTap{
     width: 10vw;
   }
