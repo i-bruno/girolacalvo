@@ -22,28 +22,12 @@ let festitapJunioFecha = new Date('2024-03-28');
 let ecunhiFecha = new Date('2024-10-05');
 let festitapDiciembreFecha = new Date('2024-12-13');
 
-// Función para establecer el contenido y color del badge
-function establecerBadge(fecha, idBadge) {
-    const diasRestantes = calcularDiferenciaEnDias(fecha);
-    const badge = document.getElementById(idBadge);
-
-    if (diasRestantes === 0) {
-        badge.innerText = 'Hoy';
-        badge.classList.add('bg-danger'); // Cambiar color a rojo
-    } else if (diasRestantes < 0) {
-        badge.innerText = 'Pasado';
-        badge.classList.add('bg-secondary'); // Cambiar color a otro color si es necesario
-    } else {
-        badge.innerText = Math.abs(diasRestantes) + ' días'; // Tomamos el valor absoluto de los días restantes
-    }
-}
-
 
 // Calculamos los días restantes y los mostramos en los badges
-// document.getElementById('pujoleada-badge').innerText = calcularDiferenciaEnDias(pujoleadaFecha) + ' días';
-// document.getElementById('festitap-junio-badge').innerText = calcularDiferenciaEnDias(festitapJunioFecha) + ' días';
-// document.getElementById('ecunhi-badge').innerText = calcularDiferenciaEnDias(ecunhiFecha) + ' días';
-// document.getElementById('festitap-diciembre-badge').innerText = calcularDiferenciaEnDias(festitapDiciembreFecha) + ' días';
+document.getElementById('pujoleada-badge').innerText = calcularDiferenciaEnDias(pujoleadaFecha) + ' días';
+document.getElementById('festitap-junio-badge').innerText = calcularDiferenciaEnDias(festitapJunioFecha) + ' días';
+document.getElementById('ecunhi-badge').innerText = calcularDiferenciaEnDias(ecunhiFecha) + ' días';
+document.getElementById('festitap-diciembre-badge').innerText = calcularDiferenciaEnDias(festitapDiciembreFecha) + ' días';
 
 // Ejemplo de uso:
 // let fechaFutura = new Date('2024-05-01');
