@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Prueba</title>
 </head>
+
 <body>
     <div class="accordion-body">
         <ul id="eventos-list" class="list-group">
@@ -16,41 +18,43 @@
 
     <script>
         // Carga el archivo JSON
-    fetch('agendaGirola.json')
-        .then(response => response.json())
-        .then(data => {
-            const eventosList = document.getElementById('eventos-list');
-            
-            // Recorre los datos del archivo JSON y crea dinámicamente los elementos <li>
-            data.forEach(evento => {
-                const li = document.createElement('li');
-                const h6 = document.createElement('h6');
-                const p = document.createElement('p');
-                const span = document.createElement('span');
+        fetch('agendaGirola.json')
+            .then(response => response.json())
+            .then(data => {
+                const eventosList = document.getElementById('eventos-list');
 
-                li.classList.add('list-group-item');
-                h6.classList.add('titEvento');
-                p.classList.add('textoEvento');
-                span.classList.add('badge', 'bg-secondary');
-                span.setAttribute('id', `${evento.id}`)
-                
-                h6.innerHTML = `${evento.titEvento} - ${evento.fecha}`;
-                p.innerHTML = `¿Donde?: ${evento.direccion} - ${evento.lugar}`;
-                span.innerHTML = ``;
+                // Recorre los datos del archivo JSON y crea dinámicamente los elementos <li>
+                data.forEach(evento => {
+                    const li = document.createElement('li');
+                    const h6 = document.createElement('h6');
+                    const p = document.createElement('p');
+                    const span = document.createElement('span');
+
+                    li.classList.add('list-group-item');
+                    h6.classList.add('titEvento');
+                    p.classList.add('textoEvento');
+                    span.classList.add('badge', 'bg-secondary');
+                    span.setAttribute('id', `${evento.id}`)
+
+                    h6.innerHTML = `${evento.titEvento} - ${evento.fecha}`;
+                    p.innerHTML = `¿Donde?: ${evento.direccion} - ${evento.lugar}`;
+                    span.innerHTML = ``;
 
 
-                // Agrega el elemento <li> al elemento <ul>
-                eventosList.appendChild(li);
-                li.appendChild(h6);
-                li.appendChild(p);
-                li.appendChild(span);
-            });
-        })
-        .catch(error => console.error('Error al cargar el archivo JSON:', error));
+                    // Agrega el elemento <li> al elemento <ul>
+                    eventosList.appendChild(li);
+                    li.appendChild(h6);
+                    li.appendChild(p);
+                    li.appendChild(span);
+                });
+            })
+            .catch(error => console.error('Error al cargar el archivo JSON:', error));
     </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    <script src="fechas.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-        <script src="fechas.js"></script>
+
 </body>
+
 </html>
