@@ -119,6 +119,8 @@ body {
 @media (min-width: 1920px) {
   body{
     width: 1920px;
+    display: flex;
+    flex-direction: column;
   }
 
 
