@@ -4,7 +4,7 @@
         "lugar": "TAP",
         "direccion": "Carlos Calvo 3619, CABA",
         "horario": "",
-        "fecha": "25/05/2024",
+        "fecha": "2024/05/25",
         "id": "pujoleada1"
     },
     {
@@ -12,7 +12,7 @@
         "lugar": "Galpon B",
         "direccion": "Cochabamba 2536, CABA",
         "horario": "",
-        "fecha": "28/06/2024",
+        "fecha": "2024/06/28",
         "id": "galpon1"
     },
     {
@@ -20,7 +20,7 @@
         "lugar": "ECUNHI",
         "direccion": "Av. del Libertador 8151, CABA",
         "horario": "",
-        "fecha": "05/10/2024",
+        "fecha": "2024/10/05",
         "id": "ecunhi1"
     },
     {
@@ -28,7 +28,7 @@
         "lugar": "Galpón B",
         "direccion": "Cochabamba 2536, CABA",
         "horario": "",
-        "fecha": "13/12/2024",
+        "fecha": "2024/12/13",
         "id": "galpon2"
     }
 ]
