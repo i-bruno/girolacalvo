@@ -141,6 +141,10 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  .logoHeader{
+    width:20vw;
+  }
 }
 
 /* Colores Girola Calvo 
