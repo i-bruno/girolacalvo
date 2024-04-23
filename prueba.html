@@ -38,7 +38,7 @@ fetch('agendaGirola.json')
             span.classList.add('badge', 'bg-secondary');
             span.setAttribute('id', `${evento.id}`);
 
-            h6.innerHTML = `${evento.titEvento} - ${evento.fecha}`;
+            h6.innerHTML = `${evento.titEvento}`;
             cuando.innerHTML = `¿Cuando?: ${evento.fecha}`;
             donde.innerHTML = `¿Donde?: ${evento.direccion} - ${evento.lugar}`;
             span.innerHTML = '';
