@@ -46,33 +46,12 @@
                     li.appendChild(h6);
                     li.appendChild(p);
                     li.appendChild(span);
-                    // Calcular los días restantes y establecerlos en los badges
-                    const diasRestantes = calcularDiferenciaEnDias(new Date(evento.fecha));
-                    span.innerText = `${diasRestantes} días`;
                 });
             })
             .catch(error => console.error('Error al cargar el archivo JSON:', error));
-
-        function calcularDiferenciaEnDias(fechaFutura) {
-            // Obtenemos la fecha actual
-            let fechaActual = new Date();
-
-            // Convertimos la fecha futura a objeto Date si no lo es
-            if (!(fechaFutura instanceof Date)) {
-                fechaFutura = new Date(fechaFutura);
-            }
-
-            // Calculamos la diferencia en milisegundos
-            let diferencia = fechaFutura.getTime() - fechaActual.getTime();
-
-            // Convertimos la diferencia de milisegundos a días
-            let dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
-
-            return dias;
-        }
+       
     </script>
-
-    <!-- <script src="fechas.js"></script> -->
+    <script src="fechas.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
