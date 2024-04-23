@@ -34,9 +34,10 @@ function establecerBadge(fecha, idBadge) {
         badge.innerText = 'Pasado';
         badge.classList.add('bg-secondary'); // Cambiar color a otro color si es necesario
     } else {
-        badge.innerText = diasRestantes + ' días';
+        badge.innerText = Math.abs(diasRestantes) + ' días'; // Tomamos el valor absoluto de los días restantes
     }
 }
+
 
 // Calculamos los días restantes y los mostramos en los badges
 document.getElementById('pujoleada-badge').innerText = calcularDiferenciaEnDias(pujoleadaFecha) + ' días';
