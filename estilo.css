@@ -8,6 +8,7 @@ body {
   min-height: 100vh;
   background: #fefefe;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center; 
 }
@@ -119,8 +120,6 @@ body {
 @media (min-width: 1920px) {
   body{
     width: 1920px;
-    display: flex;
-    flex-direction: column;
   }
 
 
