@@ -40,10 +40,10 @@ function establecerBadge(fecha, idBadge) {
 
 
 // Calculamos los días restantes y los mostramos en los badges
-document.getElementById('pujoleada-badge').innerText = calcularDiferenciaEnDias(pujoleadaFecha) + ' días';
-document.getElementById('festitap-junio-badge').innerText = calcularDiferenciaEnDias(festitapJunioFecha) + ' días';
-document.getElementById('ecunhi-badge').innerText = calcularDiferenciaEnDias(ecunhiFecha) + ' días';
-document.getElementById('festitap-diciembre-badge').innerText = calcularDiferenciaEnDias(festitapDiciembreFecha) + ' días';
+// document.getElementById('pujoleada-badge').innerText = calcularDiferenciaEnDias(pujoleadaFecha) + ' días';
+// document.getElementById('festitap-junio-badge').innerText = calcularDiferenciaEnDias(festitapJunioFecha) + ' días';
+// document.getElementById('ecunhi-badge').innerText = calcularDiferenciaEnDias(ecunhiFecha) + ' días';
+// document.getElementById('festitap-diciembre-badge').innerText = calcularDiferenciaEnDias(festitapDiciembreFecha) + ' días';
 
 // Ejemplo de uso:
 // let fechaFutura = new Date('2024-05-01');
