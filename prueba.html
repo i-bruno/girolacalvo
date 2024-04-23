@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+</head>
+<body>
+    <div class="accordion-body">
+        <ul id="eventos-list" class="list-group">
+        </ul>
+    </div>
+
+    <script>
+        // Carga el archivo JSON
+    fetch('agendaGirola.json')
+        .then(response => response.json())
+        .then(data => {
+            const eventosList = document.getElementById('eventos-list');
+            
+            // Recorre los datos del archivo JSON y crea dinámicamente los elementos <li>
+            data.forEach(evento => {
+                const li = document.createElement('li');
+                li.classList.add('list-group-item');
+                li.innerHTML = `${evento.titEvento}: ${evento.fecha} - ${evento.lugar}`;
+
+                // Agrega el elemento <li> al elemento <ul>
+                eventosList.appendChild(li);
+            });
+        })
+        .catch(error => console.error('Error al cargar el archivo JSON:', error));
+    </script>
+</body>
+</html>
