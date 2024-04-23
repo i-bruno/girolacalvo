@@ -11,6 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
+  background-image: url("fondoGirola.png");
 }
 
 @keyframes rotate {from {transform: rotate(0deg);}
@@ -141,3 +142,10 @@ body {
     justify-content: space-evenly;
   }
 }
+
+/* Colores Girola Calvo 
+#9d98caff → Lila
+#f58634ff → Naranja
+#a8cf45ff → Verde
+#ec268fff → Rosa
+*/
