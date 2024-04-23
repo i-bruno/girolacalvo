@@ -5,7 +5,7 @@
         "direccion": "Carlos Calvo 3619, CABA",
         "horario": "",
         "fecha": "25/05/2024",
-        "": ""
+        "id": "pujoleada1"
     },
     {
         "titEvento": "Festitap",
@@ -13,7 +13,7 @@
         "direccion": "Cochabamba 2536, CABA",
         "horario": "",
         "fecha": "28/06/2024",
-        "": ""
+        "id": "galpon1"
     },
     {
         "titEvento": "Tablado del ECUNHI",
@@ -21,7 +21,7 @@
         "direccion": "Av. del Libertador 8151, CABA",
         "horario": "",
         "fecha": "05/10/2024",
-        "": ""
+        "id": "ecunhi1"
     },
     {
         "titEvento": "Festitap",
@@ -29,6 +29,6 @@
         "direccion": "Cochabamba 2536, CABA",
         "horario": "",
         "fecha": "13/12/2024",
-        "": ""
+        "id": "pujoleada2"
     }
 ]

@@ -26,17 +26,23 @@
                 const li = document.createElement('li');
                 const h6 = document.createElement('h6');
                 const p = document.createElement('p');
+                const span = document.createElement('span');
+
                 li.classList.add('list-group-item');
                 h6.classList.add('titEvento');
                 p.classList.add('textoEvento');
+                span.classList.add('badge bg-secondary');
+                span.setAttribute('id', `${evento.id}`)
                 
                 h6.innerHTML = `${evento.titEvento} - ${evento.fecha}`;
                 p.innerHTML = `¿Donde?: ${evento.lugar}`;
+
 
                 // Agrega el elemento <li> al elemento <ul>
                 eventosList.appendChild(li);
                 li.appendChild(h6);
                 li.appendChild(p);
+                li.appendChild(span);
             });
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
