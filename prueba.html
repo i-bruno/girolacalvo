@@ -24,11 +24,19 @@
             // Recorre los datos del archivo JSON y crea dinámicamente los elementos <li>
             data.forEach(evento => {
                 const li = document.createElement('li');
+                const h3 = document.createElement('h3');
+                const p = document.createElement('p');
                 li.classList.add('list-group-item');
-                li.innerHTML = `${evento.titEvento}: ${evento.fecha} - ${evento.lugar}`;
+                h3.classList.add('titEvento');
+                p.classList.add('textoEvento');
+                
+                h3.innerHTML = `${evento.titEvento} - ${evento.fecha}`;
+                p.innerHTML = `${evento.lugar}`;
 
                 // Agrega el elemento <li> al elemento <ul>
                 eventosList.appendChild(li);
+                li.appendChild(h3);
+                li.appendChild(p);
             });
         })
         .catch(error => console.error('Error al cargar el archivo JSON:', error));
