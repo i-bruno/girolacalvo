@@ -17,16 +17,21 @@ function calcularDiferenciaEnDias(fechaFutura) {
 }
 
 // Definimos las fechas futuras
-var pujoleadaFecha = new Date('2024-05-25');
-var festitapJunioFecha = new Date('2024-06-28');
-var ecunhiFecha = new Date('2024-10-05');
-var festitapDiciembreFecha = new Date('2024-12-13');
+let pujoleadaFecha = new Date('2024-05-25');
+let festitapJunioFecha = new Date('2024-06-28');
+let ecunhiFecha = new Date('2024-10-05');
+let festitapDiciembreFecha = new Date('2024-12-13');
 
 // Calculamos los días restantes y los mostramos en los badges
-document.getElementById('pujoleada-badge').innerText = calcularDiferenciaEnDias(pujoleadaFecha) + ' días';
-document.getElementById('festitap-junio-badge').innerText = calcularDiferenciaEnDias(festitapJunioFecha) + ' días';
-document.getElementById('ecunhi-badge').innerText = calcularDiferenciaEnDias(ecunhiFecha) + ' días';
-document.getElementById('festitap-diciembre-badge').innerText = calcularDiferenciaEnDias(festitapDiciembreFecha) + ' días';
+document.getElementById('pujoleada1').innerText = calcularDiferenciaEnDias(pujoleadaFecha) + ' días';
+document.getElementById('galpon1').innerText = calcularDiferenciaEnDias(festitapJunioFecha) + ' días';
+document.getElementById('ecunhi1').innerText = calcularDiferenciaEnDias(ecunhiFecha) + ' días';
+document.getElementById('galpon2').innerText = calcularDiferenciaEnDias(festitapDiciembreFecha) + ' días';
+
+// document.getElementById('pujoleada-badge').innerText = calcularDiferenciaEnDias(pujoleadaFecha) + ' días';
+// document.getElementById('festitap-junio-badge').innerText = calcularDiferenciaEnDias(festitapJunioFecha) + ' días';
+// document.getElementById('ecunhi-badge').innerText = calcularDiferenciaEnDias(ecunhiFecha) + ' días';
+// document.getElementById('festitap-diciembre-badge').innerText = calcularDiferenciaEnDias(festitapDiciembreFecha) + ' días';
 
 // Ejemplo de uso:
 // let fechaFutura = new Date('2024-05-01');
