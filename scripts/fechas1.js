@@ -11,7 +11,6 @@ fetch("./json/agendaGirola.json")
             const cuando = document.createElement("p");
             const donde = document.createElement("p");
             const span = document.createElement("span");
-            const button = document.createElement("button");
 
             li.classList.add("list-group-item");
             h6.classList.add("titEvento");
@@ -24,7 +23,6 @@ fetch("./json/agendaGirola.json")
             cuando.innerHTML = `¿Cuando?: ${formatoFechaArgentina(evento.fecha)} - ${evento.horario}`;
             donde.innerHTML = `¿Donde?: ${evento.direccion} - ${evento.lugar}`;
             span.innerHTML = "";
-            button.innerHTML="Compartir";
 
             // Agrega el elemento <li> al elemento <ul>
             eventosList.appendChild(li);
