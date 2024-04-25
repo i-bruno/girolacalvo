@@ -18,10 +18,12 @@
     </div>
 
     <script>
-        let texto = document.getElementById('eventos-list').innerHTML;
+        let titulo = document.getElementById('titEvento').innerHTML;
+        let cuando = document.getElementById('cuandoEvento').innerHTML;
+        let donde = document.getElementById('dondeEvento').innerHTML;
         const copiarContenido = async () => {
             try {
-                await navigator.clipboard.writeText(texto);
+                await navigator.clipboard.writeText(titulo);
                 console.log('Contenido copiado al portapapeles');
             } catch (err) {
                 console.error('Error al copiar: ', err);
