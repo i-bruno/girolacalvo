@@ -77,17 +77,37 @@ function establecerBadge(fechaFutura, idBadge) {
 
     const badge = document.getElementById(idBadge);
 
-    if (dias === 0) {
-        badge.innerText = 'Hoy!';
-        badge.classList.remove('bg-secondary') // Quita el color gris
-        badge.classList.add('bg-danger'); // Cambiar color a rojo
-    } else if (dias < 0) {
-        badge.innerText = 'Pasado';
-        badge.classList.remove('bg-secondary') // Quita el color gris
-        badge.classList.add('bg-success'); // Cambiar color a verde
-    } else {
+    if (dias > 0) {
         badge.innerText = dias + ' días';
+    } else if (dias === 0) {
+        badge.innerText = 'Hoy';
+    } else {
+        badge.innerText = 'Pasado';
     }
+
+    // Aplicar estilos al badge según la situación
+    if (dias === 0) {
+        badge.classList.remove('bg-secondary');
+        badge.classList.add('bg-danger');
+    } else if (dias < 0) {
+        badge.classList.remove('bg-secondary');
+        badge.classList.add('bg-success');
+    } else {
+        badge.classList.remove('bg-danger', 'bg-success');
+        badge.classList.add('bg-secondary');
+    }
+
+    // if (dias === 0) {
+    //     badge.innerText = 'Hoy!';
+    //     badge.classList.remove('bg-secondary') // Quita el color gris
+    //     badge.classList.add('bg-danger'); // Cambiar color a rojo
+    // } else if (dias < 0) {
+    //     badge.innerText = 'Pasado';
+    //     badge.classList.remove('bg-secondary') // Quita el color gris
+    //     badge.classList.add('bg-success'); // Cambiar color a verde
+    // } else {
+    //     badge.innerText = dias + ' días';
+    // }
 }
 
 // Función para formatear la fecha en formato argentino (dd/mm/yyyy)
