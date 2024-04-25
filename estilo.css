@@ -57,6 +57,13 @@ body {
   width:60vw;
 }
 
+.btnCopy{
+  margin:1rem;
+  background: #a8cf45ff;
+  border-radius: 1rem;
+  border-color: #a8cf45ff;
+}
+
 /* Diseños responsives */
 @media (min-width: 720px) {
   body{
