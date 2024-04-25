@@ -19,8 +19,6 @@ fetch("./json/agendaGirola.json")
             donde.classList.add("dondeEvento");
             span.classList.add("badge", "bg-secondary");
             span.setAttribute("id", `${evento.id}`);
-            button.classList.add("btnCopy");
-            button.addEventListener("click", copiarContenido())
 
             h6.innerHTML = `${evento.titEvento}`;
             cuando.innerHTML = `¿Cuando?: ${formatoFechaArgentina(evento.fecha)} - ${evento.horario}`;
