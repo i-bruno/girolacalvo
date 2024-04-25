@@ -3,7 +3,7 @@
         "titEvento": "Pujoleada",
         "lugar": "TAP",
         "direccion": "Carlos Calvo 3619, CABA",
-        "horario": "00:25",
+        "horario": "00:25 hs",
         "fecha": "2024/05/25",
         "id": "pujoleada1"
     },
@@ -35,7 +35,7 @@
         "titEvento": "Festitap",
         "lugar": "Galpón B",
         "direccion": "Cochabamba 2536, CABA",
-        "horario": "21:00",
+        "horario": "21:00 hs",
         "fecha": "2024/04/24",
         "id": "galpon3"
     }

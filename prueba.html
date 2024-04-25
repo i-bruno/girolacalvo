@@ -41,7 +41,7 @@ fetch('./json/agendaGirola.json')
             span.setAttribute('id', `${evento.id}`);
 
             h6.innerHTML = `${evento.titEvento}`;
-            cuando.innerHTML = `¿Cuando?: ${formatoFechaArgentina(evento.fecha)} - ${evento.horario} hs`;
+            cuando.innerHTML = `¿Cuando?: ${formatoFechaArgentina(evento.fecha)} - ${evento.horario}`;
             donde.innerHTML = `¿Donde?: ${evento.direccion} - ${evento.lugar}`;
             span.innerHTML = '';
 
@@ -67,6 +67,10 @@ function establecerBadge(fechaFutura, idBadge) {
     if (!(fechaFutura instanceof Date)) {
         fechaFutura = new Date(fechaFutura);
     }
+
+    // Ajustamos las fechas al huso horario local
+    fechaActual.setHours(0, 0, 0, 0);
+    fechaFutura.setHours(0, 0, 0, 0);
 
     // Calculamos la diferencia en milisegundos
     let diferencia = fechaFutura.getTime() - fechaActual.getTime();
