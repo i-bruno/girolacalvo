@@ -27,8 +27,7 @@ p{
     animation: 5s rotate linear infinite;
     -webkit-transform-origin: 50% 50%;
     transform-origin: 50% 50%;
-    width: 38vw;
-    border-radius: 50px;
+    width: 90vw;
 }
 
 .accordion{
@@ -53,7 +52,7 @@ p{
 }
 
 .logoTap{
-  width: 30vw;
+  width: 25vw;
 }
 
 
@@ -105,6 +104,11 @@ p{
   body{
     width: 1366px;
   }
+
+  .logo{
+    width: 38vw;
+  }
+
   .logoTap{
     width: 10vw;
   }
@@ -124,6 +128,11 @@ p{
   body{
     width: 1440px;
   }
+
+  .logo{
+    width: 38vw;
+  }
+
   .logoTap{
     width: 10vw;
   }
@@ -142,6 +151,10 @@ p{
 @media (min-width: 1920px) {
   body{
     width: 1920px;
+  }
+
+  .logo{
+    width: 38vw;
   }
 
 
