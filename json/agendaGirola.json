@@ -30,13 +30,5 @@
         "horario": "",
         "fecha": "2024/12/13",
         "id": "galpon2"
-    },
-    {
-        "titEvento": "Festitap",
-        "lugar": "Galpón B",
-        "direccion": "Cochabamba 2536, CABA",
-        "horario": "21:00 hs",
-        "fecha": "2024/04/26",
-        "id": "galpon3"
     }
 ]

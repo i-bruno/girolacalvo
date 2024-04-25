@@ -34,7 +34,7 @@ fetch('./json/agendaGirola.json')
             const span = document.createElement('span');
 
             li.classList.add('list-group-item');
-            h6.classList.add('titEvento');
+            h6.classList.add('titEvento', 'fw-bold');
             cuando.classList.add('cuandoEvento');
             donde.classList.add('dondeEvento');
             span.classList.add('badge', 'bg-secondary');
@@ -100,18 +100,6 @@ function establecerBadge(fechaFutura, idBadge) {
         badge.classList.remove('bg-danger', 'bg-success');
         badge.classList.add('bg-secondary');
     }
-
-    // if (dias === 0) {
-    //     badge.innerText = 'Hoy!';
-    //     badge.classList.remove('bg-secondary') // Quita el color gris
-    //     badge.classList.add('bg-danger'); // Cambiar color a rojo
-    // } else if (dias < 0) {
-    //     badge.innerText = 'Pasado';
-    //     badge.classList.remove('bg-secondary') // Quita el color gris
-    //     badge.classList.add('bg-success'); // Cambiar color a verde
-    // } else {
-    //     badge.innerText = dias + ' días';
-    // }
 }
 
 // Función para formatear la fecha en formato argentino (dd/mm/yyyy)
