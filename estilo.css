@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  background-image: url("fondoGirola.png");
+  background-image: url("./assets/images/fondoGirola.png");
 }
 
 @keyframes rotate {from {transform: rotate(0deg);}
