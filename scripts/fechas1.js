@@ -30,7 +30,6 @@ fetch("./json/agendaGirola.json")
             li.appendChild(cuando);
             li.appendChild(donde);
             li.appendChild(span);
-            li.appendChild(button);
 
             // Calcula los días restantes y establece el contenido y color del badge
             establecerBadge(new Date(evento.fecha), evento.id);
