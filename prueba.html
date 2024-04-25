@@ -18,9 +18,9 @@
     </div>
 
     <script>
-        let titulo = document.getElementById('titEvento').innerHTML;
-        let cuando = document.getElementById('cuandoEvento').innerHTML;
-        let donde = document.getElementById('dondeEvento').innerHTML;
+        let titulo = document.getElementsByClassName('titEvento').innerHTML;
+        let cuando = document.getElementsByClassName('cuandoEvento').innerHTML;
+        let donde = document.getElementsByClassName('dondeEvento').innerHTML;
         const copiarContenido = async () => {
             try {
                 await navigator.clipboard.writeText(titulo);

@@ -15,17 +15,10 @@ fetch("./json/agendaGirola.json")
 
             li.classList.add("list-group-item");
             h6.classList.add("titEvento");
-            h6.setAttribute("id", "titEvento");
-
             cuando.classList.add("cuandoEvento");
-            
-
             donde.classList.add("dondeEvento");
-            
-
             span.classList.add("badge", "bg-secondary");
             span.setAttribute("id", `${evento.id}`);
-
             button.classList.add("btnCopy");
             button.addEventListener("click", copiarContenido())
 
