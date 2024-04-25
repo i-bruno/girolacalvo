@@ -40,7 +40,7 @@ fetch('agendaGirola.json')
             span.setAttribute('id', `${evento.id}`);
 
             h6.innerHTML = `${evento.titEvento}`;
-            cuando.innerHTML = `¿Cuando?: ${formatoFechaArgentina(evento.fecha)}`;
+            cuando.innerHTML = `¿Cuando?: ${formatoFechaArgentina(evento.fecha)} - ${evento.horario} hs`;
             donde.innerHTML = `¿Donde?: ${evento.direccion} - ${evento.lugar}`;
             span.innerHTML = '';
 
