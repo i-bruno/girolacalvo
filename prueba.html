@@ -20,7 +20,7 @@
 <script>
     // Carga el archivo JSON y realiza el procesamiento de los datos
 // Carga el archivo JSON y realiza el procesamiento de los datos
-fetch('agendaGirola.json')
+fetch('./json/agendaGirola.json')
     .then(response => response.json())
     .then(data => {
         const eventosList = document.getElementById('eventos-list');
