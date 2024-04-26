@@ -203,7 +203,7 @@
             </div>
         </footer>
     </div>
-
+    
     <script src="./scripts/fechas1.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -215,6 +215,11 @@
 
     <script>
         const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'vertical',
+            loop: true,
+
+            //Card effects
             effect: 'cards',
             cardsEffect: {
                 perSlideOffset: '8',
@@ -222,6 +227,7 @@
                 rotate: 'true',
                 slideShadows: 'true',
             },
+
         });
     </script>
 
