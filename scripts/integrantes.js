@@ -1,6 +1,6 @@
 
 // Fetch del archivo JSON
-fetch('integrantesGirola.json')
+fetch('./json/integrantesGirola.json')
     .then(response => response.json())
     .then(data => {
         const swiperWrapper = document.getElementById('swiper-wrapper');
