@@ -180,7 +180,11 @@ p{
 
 .swiper {
   width: 300px;
-  height: 300px;
+  height: auto;
+}
+
+.swiper-slide{
+  height: auto;
 }
 
 /* Colores Girola Calvo 
