@@ -3,19 +3,21 @@
         "id": "1",
         "apellido": "",
         "nombre": "Adriana",
-        "apodo": "",
+        "apodo": "Adri",
         "cumpleaños": "",
         "cuerda": "Prima",
-        "ingreso": "2024"
+        "ingreso": "2024",
+        "avatar": ""
     },
     {
         "id": "2",
         "apellido": "",
         "nombre": "Ailén",
-        "apodo": "",
+        "apodo": "Ailu",
         "cumpleaños": "",
         "cuerda": "Sobreprima",
-        "ingreso": "2024"
+        "ingreso": "2024",
+        "avatar": ""
     },
     {
         "id": "3",
@@ -24,7 +26,8 @@
         "apodo": "Ana",
         "cumpleaños": "09-11",
         "cuerda": "Prima",
-        "ingreso": "2021"
+        "ingreso": "2021",
+        "avatar": ""
     },
     {
         "id": "4",
@@ -33,16 +36,18 @@
         "apodo": "Andre",
         "cumpleaños": "23-10",
         "cuerda": "Sobreprima",
-        "ingreso": "2022"
+        "ingreso": "2022",
+        "avatar": ""
     },
     {
         "id": "5",
         "apellido": "Vigil",
         "nombre": "María Belén",
-        "apodo": "Belén",
+        "apodo": "Belu",
         "cumpleaños": "01-11",
         "cuerda": "Prima",
-        "ingreso": "2021"
+        "ingreso": "2021",
+        "avatar": ""
     },
     {
         "id": "6",
@@ -51,7 +56,8 @@
         "apodo": "Cami",
         "cumpleaños": "26-11",
         "cuerda": "Prima",
-        "ingreso": "2021"
+        "ingreso": "2021",
+        "avatar": ""
     },
     {
         "id": "7",
@@ -60,7 +66,8 @@
         "apodo": "Car",
         "cumpleaños": "16-11",
         "cuerda": "Prima",
-        "ingreso": "2021"
+        "ingreso": "2021",
+        "avatar": ""
     },
     {
         "id": "8",
@@ -69,7 +76,8 @@
         "apodo": "Nacho",
         "cumpleaños": "06-06",
         "cuerda": "Segunda",
-        "ingreso": "2022"
+        "ingreso": "2022",
+        "avatar": ""
     },
     {
         "id": "9",
@@ -78,7 +86,8 @@
         "apodo": "Ceci",
         "cumpleaños": "17-11",
         "cuerda": "Sobreprima",
-        "ingreso": "2023"
+        "ingreso": "2023",
+        "avatar": ""
     },
     {
         "id": "10",
@@ -87,25 +96,28 @@
         "apodo": "Debbie",
         "cumpleaños": "27-10",
         "cuerda": "Prima",
-        "ingreso": "2021"
+        "ingreso": "2021",
+        "avatar": ""
     },
     {
         "id": "11",
         "apellido": "",
         "nombre": "Mar",
-        "apodo": "",
+        "apodo": "Mar",
         "cumpleaños": "",
         "cuerda": "Prima",
-        "ingreso": "2024"
+        "ingreso": "2024",
+        "avatar": ""
     },
     {
         "id": "12",
         "apellido": "",
         "nombre": "Martín",
-        "apodo": "",
+        "apodo": "Martín",
         "cumpleaños": "",
         "cuerda": "Segunda",
-        "ingreso": "2024"
+        "ingreso": "2024",
+        "avatar": ""
     },
     {
         "id": "13",
@@ -114,7 +126,8 @@
         "apodo": "Nacho",
         "cumpleaños": "26-08",
         "cuerda": "Segunda",
-        "ingreso": "2023"
+        "ingreso": "2023",
+        "avatar": ""
     },
     {
         "id": "14",
@@ -123,25 +136,28 @@
         "apodo": "Nati",
         "cumpleaños": "06-10",
         "cuerda": "Sobreprima",
-        "ingreso": "2023"
+        "ingreso": "2023",
+        "avatar": ""
     },
     {
         "id": "15",
         "apellido": "Guerrero Matteo",
         "nombre": "Pablo César",
-        "apodo": "",
+        "apodo": "Pablo",
         "cumpleaños": "29-12",
         "cuerda": "Segunda",
-        "ingreso": "2022"
+        "ingreso": "2022",
+        "avatar": ""
     },
     {
         "id": "16",
         "apellido": "",
         "nombre": "Rodrigo",
-        "apodo": "",
+        "apodo": "Rodri",
         "cumpleaños": "",
         "cuerda": "Segunda",
-        "ingreso": "2024"
+        "ingreso": "2024",
+        "avatar": ""
     },
     {
         "id": "17",
@@ -150,25 +166,28 @@
         "apodo": "Seba",
         "cumpleaños": "",
         "cuerda": "Segunda",
-        "ingreso": "2024"
+        "ingreso": "2024",
+        "avatar": ""
     },
     {
         "id": "18",
         "apellido": "",
         "nombre": "Sofía",
-        "apodo": "",
+        "apodo": "Sofi",
         "cumpleaños": "",
         "cuerda": "Sobreprima",
-        "ingreso": "2024"
+        "ingreso": "2024",
+        "avatar": ""
     },
     {
         "id": "19",
         "apellido": "González",
         "nombre": "Sony",
-        "apodo": "",
+        "apodo": "Sony",
         "cumpleaños": "11-06",
         "cuerda": "Prima",
-        "ingreso": "2023"
+        "ingreso": "2023",
+        "avatar": ""
     },
     {
         "id": "20",
@@ -177,7 +196,8 @@
         "apodo": "Yani",
         "cumpleaños": "",
         "cuerda": "Sobreprima",
-        "ingreso": "2024"
+        "ingreso": "2024",
+        "avatar": ""
     },
     {
         "id": "21",
@@ -186,6 +206,7 @@
         "apodo": "Bruno",
         "cumpleaños": "16-06",
         "cuerda": "Director",
-        "ingreso": ""
+        "ingreso": "",
+        "avatar": ""
     }
 ]
