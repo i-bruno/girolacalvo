@@ -194,6 +194,10 @@ p{
   margin: 1rem;
 }
 
+.avatar{
+  width: 40vw;
+}
+
 /* Colores Girola Calvo 
 #9d98caff → Lila
 #f58634ff → Naranja
