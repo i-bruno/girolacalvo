@@ -21,12 +21,16 @@ fetch('./json/integrantesGirola.json')
 
       // Construir el contenido del swiper-slide con los datos del integrante
       slide.innerHTML = `
-        <div class="integrante">
-          <h2>${integrante.apodo}</h2>
-          <p>Cumpleaños: ${integrante.cumpleaños}</p>
-          <p>Cuerda: ${integrante.cuerda}</p>
-          <p>Ingreso: ${integrante.ingreso}</p>
-          <img src="${integrante.avatar}">
+        <div class="integrante d-flex">
+          <div>
+            <h2>${integrante.apodo}</h2>
+            <p>Cumpleaños: ${integrante.cumpleaños}</p>
+            <p>Cuerda: ${integrante.cuerda}</p>
+            <p>Ingreso: ${integrante.ingreso}</p>
+          </div>
+          <div>
+            <img src="${integrante.avatar} class="avatar">
+          </div>
         </div>
       `;
 
@@ -36,9 +40,9 @@ fetch('./json/integrantesGirola.json')
 
     // Inicializar Swiper después de haber creado todos los swiper-slide
     const swiper = new Swiper('.swiper', {
-                  // Optional parameters
-                  direction: 'horizontal',
-                  loop: true,
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
     });
   })
   .catch(error => {
