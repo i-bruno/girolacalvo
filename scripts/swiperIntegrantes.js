@@ -15,12 +15,16 @@ jsonData.sort((a, b) => parseDate(a.cumpleaños) - parseDate(b.cumpleaños));
 
 // Function to generate swiper slides
 function generateSwiperSlides(data) {
-const swiperWrapper = document.getElementById("swiper-wrapper");
+    const swiperWrapper = document.getElementById('swiper-wrapper');
+    const totalSlides = data.length;
 
-data.forEach((person) => {
-    const slide = document.createElement("div");
-    slide.classList.add("swiper-slide");
-    slide.innerHTML = `
+    // Duplicating slides to ensure enough slides for loop mode
+    const duplicatedData = [...data, ...data];
+
+    duplicatedData.forEach(person => {
+        const slide = document.createElement('div');
+        slide.classList.add('swiper-slide');
+        slide.innerHTML = `
             <h5>Nombre:</h5>
             <p>${person.nombre} ${person.apellido}</p>
             <h5>Cumpleaños:</h5>
@@ -28,6 +32,6 @@ data.forEach((person) => {
             <h4>Cuerda:</h5>
             <p>${person.cuerda}</p>
         `;
-    swiperWrapper.appendChild(slide);
-});
+        swiperWrapper.appendChild(slide);
+    });
 }
