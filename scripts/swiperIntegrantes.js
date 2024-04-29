@@ -1,37 +1,45 @@
-// Data from JSON file
-const jsonData = [
-  // Your JSON data goes here
-];
-
-// Function to parse date strings in format "dd-mm"
-function parseDate(dateString) {
-const [day, month] = dateString.split("-").map(Number);
-  // Month is 0-indexed in JavaScript Date objects, so subtract 1
-return new Date(new Date().getFullYear(), month - 1, day);
-}
-
-// Sort JSON data by birth date in ascending order
-jsonData.sort((a, b) => parseDate(a.cumpleaños) - parseDate(b.cumpleaños));
-
-// Function to generate swiper slides
-function generateSwiperSlides(data) {
-    const swiperWrapper = document.getElementById('swiper-wrapper');
-    const totalSlides = data.length;
-
-    // Duplicating slides to ensure enough slides for loop mode
-    const duplicatedData = [...data, ...data];
-
-    duplicatedData.forEach(person => {
-        const slide = document.createElement('div');
-        slide.classList.add('swiper-slide');
-        slide.innerHTML = `
-            <h5>Nombre:</h5>
-            <p>${person.nombre} ${person.apellido}</p>
-            <h5>Cumpleaños:</h5>
-            <p>${person.cumpleaños}</p>
-            <h4>Cuerda:</h5>
-            <p>${person.cuerda}</p>
-        `;
-        swiperWrapper.appendChild(slide);
+// Cargar el archivo JSON
+fetch('./json/integrantesGirola.json')
+  .then(response => response.json())
+  .then(data => {
+    // Ordenar los objetos por fecha de cumpleaños
+    data.sort((a, b) => {
+      // Convertir las fechas al formato MM-DD para compararlas correctamente
+      const dateA = a.cumpleaños ? new Date(`2000-${a.cumpleaños.split('-').reverse().join('-')}`) : null;
+      const dateB = b.cumpleaños ? new Date(`2000-${b.cumpleaños.split('-').reverse().join('-')}`) : null;
+      return dateA - dateB;
     });
-}
+
+    // Obtener el contenedor swiper-wrapper
+    const swiperWrapper = document.querySelector('.swiper-wrapper');
+
+    // Iterar sobre cada integrante y crear un swiper-slide
+    data.forEach(integrante => {
+      // Crear el elemento swiper-slide
+      const slide = document.createElement('div');
+      slide.classList.add('swiper-slide');
+
+      // Construir el contenido del swiper-slide con los datos del integrante
+      slide.innerHTML = `
+        <div class="integrante">
+          <h2>${integrante.nombre} ${integrante.apellido}</h2>
+          <p>Cumpleaños: ${integrante.cumpleaños}</p>
+          <p>Cuerda: ${integrante.cuerda}</p>
+          <p>Ingreso: ${integrante.ingreso}</p>
+        </div>
+      `;
+
+      // Agregar el swiper-slide al contenedor swiper-wrapper
+      swiperWrapper.appendChild(slide);
+    });
+
+    // Inicializar Swiper después de haber creado todos los swiper-slide
+    const swiper = new Swiper('.swiper', {
+                  // Optional parameters
+                  direction: 'horizontal',
+                  loop: true,
+    });
+  })
+  .catch(error => {
+    console.error('Error al cargar los datos:', error);
+  });
