@@ -26,6 +26,7 @@ fetch('./json/integrantesGirola.json')
           <p>Cumpleaños: ${integrante.cumpleaños}</p>
           <p>Cuerda: ${integrante.cuerda}</p>
           <p>Ingreso: ${integrante.ingreso}</p>
+          <img src="${integrante.avatar}">
         </div>
       `;
 
