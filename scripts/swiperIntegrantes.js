@@ -29,7 +29,7 @@ fetch('./json/integrantesGirola.json')
             <p>Ingreso: ${integrante.ingreso}</p>
           </div>
           <div>
-            <img src="${integrante.avatar} class="avatar">
+            <img src="${integrante.avatar}" class="avatar">
           </div>
         </div>
       `;
