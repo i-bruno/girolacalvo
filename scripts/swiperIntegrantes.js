@@ -28,7 +28,7 @@ fetch('./json/integrantesGirola.json')
             <p>Cuerda: ${integrante.cuerda}</p>
             <p>Ingreso: ${integrante.ingreso}</p>
           </div>
-          <div>
+          <div class="d-flex">
             <img src="${integrante.avatar}" class="avatar">
           </div>
         </div>
