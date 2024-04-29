@@ -21,7 +21,7 @@ fetch('./json/integrantesGirola.json')
 
       // Construir el contenido del swiper-slide con los datos del integrante
       slide.innerHTML = `
-        <div class="integrante d-flex">
+        <div class="integrante d-flex justify-content-between">
           <div>
             <h2>${integrante.apodo}</h2>
             <p>Cumpleaños: ${integrante.cumpleaños}</p>
