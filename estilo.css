@@ -94,9 +94,9 @@ p {
 @media (min-width: 720px) {
   body {
     width: 720px;
-    background-image: url("./assets/images/luces-de-escenario(2).png");
+    background-image: url("./assets/images/luces-de-escenario(3).png");
     background-size: contain;
-    background-position: center;
+    background-size: cover;
   }
 
   .logoTap {
