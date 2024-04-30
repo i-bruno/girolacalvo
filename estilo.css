@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("./assets/images/luces-de-escenario(2).png");
+  background-image: url("./assets/images/fondoGirola.png");
   background-size: cover;
 }
 
@@ -94,9 +94,6 @@ p {
 @media (min-width: 720px) {
   body {
     width: 720px;
-    background-image: url("./assets/images/luces-de-escenario(3).png");
-    background-size: contain;
-    background-size: cover;
   }
 
   .logoTap {
