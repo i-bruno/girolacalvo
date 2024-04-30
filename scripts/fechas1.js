@@ -56,7 +56,6 @@ function establecerBadge(fechaFutura, idBadge) {
 
     // Convertimos la diferencia de milisegundos a días
     let dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
-    console.log(dias);
 
     const badge = document.getElementById(idBadge);
 
