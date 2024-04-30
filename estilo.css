@@ -1,68 +1,84 @@
-* { 
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body { 
+body {
   min-height: 100vh;
   background: #fefefe;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   background-image: url("./assets/images/luces-de-escenario(2).png");
   background-size: cover;
 }
 
-p{
-  margin-bottom: 0!important;
+p {
+  margin-bottom: 0 !important;
 }
 
-@keyframes rotate {from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}}
-@-webkit-keyframes rotate {from {-webkit-transform: rotate(0deg);}
-  to {-webkit-transform: rotate(360deg);}}
-.logo{
-    -webkit-animation: 5s rotate linear infinite;
-    animation: 5s rotate linear infinite;
-    -webkit-transform-origin: 50% 50%;
-    transform-origin: 50% 50%;
-    width: 90vw;
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.accordion{
-  margin:1rem;
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+  }
 }
 
-.accordion-button{
+.logo {
+  -webkit-animation: 5s rotate linear infinite;
+  animation: 5s rotate linear infinite;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  width: 90vw;
+}
+
+.accordion {
+  margin: 1rem;
+}
+
+.accordion-button {
   display: flex;
   justify-content: space-between;
-  color:black!important;
-  background-color: white!important;
+  color: black !important;
+  background-color: white !important;
 }
 
-.accordion-button::after{
+.accordion-button::after {
   margin-left: 1rem;
 }
 
-.list-group-item.active{
-  background-color: #d1e7dd!important;
-  color: black!important;
-  border-color: #d1e7dd!important;
+.list-group-item.active {
+  background-color: #d1e7dd !important;
+  color: black !important;
+  border-color: #d1e7dd !important;
 }
 
-.logoTap{
+.logoTap {
   width: 25vw;
 }
 
 
-.logoHeader{
-  width:60vw;
+.logoHeader {
+  width: 60vw;
 }
 
-.btnCopy{
-  margin-left:1rem;
+.btnCopy {
+  margin-left: 1rem;
   background: #a8cf45ff;
   border: none;
   border-radius: 0.375rem;
@@ -76,102 +92,106 @@ p{
 
 /* Diseños responsives */
 @media (min-width: 720px) {
-  body{
+  body {
     width: 720px;
+    background-image: url("./assets/images/luces-de-escenario(2).png");
+    background-size: contain;
+    background-position: center;
   }
-  .logoTap{
+
+  .logoTap {
     width: 10vw;
   }
 
-  .seccionHome{
+  .seccionHome {
     width: 100%;
   }
 }
 
 @media (min-width: 1366px) {
-  body{
+  body {
     width: 1366px;
   }
 
-  .logo{
+  .logo {
     width: 38vw;
   }
 
-  .logoTap{
+  .logoTap {
     width: 10vw;
   }
 
-  .seccionHome{
+  .seccionHome {
     width: 100%;
   }
 
-  .accordion-body{
-    display:flex;
+  .accordion-body {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
 
-  .logoHeader{
+  .logoHeader {
     box-shadow: 0px 0px 5px 1px rgb(201, 201, 201);
     border-radius: 1rem;
   }
 }
 
 @media (min-width: 1440px) {
-  body{
+  body {
     width: 1440px;
   }
 
-  .logo{
+  .logo {
     width: 38vw;
   }
 
-  .logoTap{
+  .logoTap {
     width: 10vw;
   }
 
-  .seccionHome{
+  .seccionHome {
     width: 100%;
   }
 
-  .accordion-body{
-    display:flex;
+  .accordion-body {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
 
-  .logoHeader{
+  .logoHeader {
     box-shadow: 0px 0px 5px 1px rgb(201, 201, 201);
     border-radius: 1rem;
   }
 }
 
 @media (min-width: 1920px) {
-  body{
+  body {
     width: 1920px;
   }
 
-  .logo{
+  .logo {
     width: 38vw;
   }
 
 
-  .logoTap{
+  .logoTap {
     width: 10vw;
   }
 
-  .seccionHome{
+  .seccionHome {
     width: 100%;
   }
 
-  .accordion-body{
-    display:flex;
+  .accordion-body {
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
   }
 
-  .logoHeader{
-    width:30vw;
+  .logoHeader {
+    width: 30vw;
     box-shadow: 0px 0px 5px 1px rgb(201, 201, 201);
     border-radius: 1rem;
   }
@@ -184,11 +204,11 @@ p{
   height: auto;
 }
 
-.swiper-slide{
+.swiper-slide {
   height: auto;
 }
 
-.integrante{
+.integrante {
   background-color: #cfe2ff;
   border-radius: 5px;
   padding: 0.5rem;
@@ -196,7 +216,7 @@ p{
   margin: 1rem;
 }
 
-.avatar{
+.avatar {
   width: 30vw;
 }
 
