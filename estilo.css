@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center; 
   background-image: url("./assets/images/luces-de-escenario(2).png");
+  background-size: cover;
 }
 
 p{
