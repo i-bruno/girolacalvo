@@ -31,7 +31,7 @@ fetch('./json/integrantesGirola.json')
         if (integrante.cumpleaños) {
           const [day, month] = integrante.cumpleaños.split('-');
           if (parseInt(month, 10) === currentMonth && parseInt(day, 10) === currentDay) {
-            cumpleanosHTML += `<span class="badge badge-danger ml-2">Hoy!</span>`;
+            cumpleanosHTML += `<span class="badge bg-danger ml-2">Hoy!</span>`;
           }
         }
         slide.innerHTML = `
