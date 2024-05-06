@@ -26,7 +26,7 @@ fetch('./json/integrantesGirola.json')
         slide.classList.add('swiper-slide');
 
         // Construir el contenido del swiper-slide con los datos del integrante
-        let cumpleanosHTML = `<p>Cumpleaños: ${integrante.cumpleaños}</p>`;
+        let cumpleanosHTML = `<p>Cumpleaños: ${integrante.cumpleaños}`;
         // Verificar si es el cumpleaños de hoy
         if (integrante.cumpleaños) {
           const [day, month] = integrante.cumpleaños.split('-');
@@ -34,6 +34,9 @@ fetch('./json/integrantesGirola.json')
             cumpleanosHTML += `<span class="badge bg-danger ml-2">Hoy!</span>`;
           }
         }
+
+        cumpleanosHTML += `</p>`;
+        
         slide.innerHTML = `
           <div class="integrante d-flex justify-content-between">
             <div>
