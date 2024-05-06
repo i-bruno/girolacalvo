@@ -36,14 +36,14 @@ fetch('./json/integrantesGirola.json')
         }
 
         cumpleanosHTML += `</p>`;
-        
+
         slide.innerHTML = `
-          <div class="integrante d-flex justify-content-between">
-            <div>
-              <h2>${integrante.apodo}</h2>
+          <div class="integrante d-flex ">
+            <div class="w-100>
+              <h2 class="text-center">${integrante.apodo}</h2>
               ${cumpleanosHTML}
-              <p>Cuerda: ${integrante.cuerda}</p>
-              <p>Ingreso: ${integrante.ingreso}</p>
+              <p class="text-center">Cuerda: ${integrante.cuerda}</p>
+              <p class="text-center">Ingreso: ${integrante.ingreso}</p>
             </div>
           </div>
         `;
