@@ -49,12 +49,12 @@ fetch("./json/integrantesGirola.json")
               <p>Cuerda: ${integrante.cuerda}</p>
               <p>Ingreso: ${integrante.ingreso}</p>
             </div>
-            <div class="d-flex">
-              <img src="${integrante.avatar}" class="avatar">
-            </div>
           </div>
         `;
 
+      //   <div class="d-flex">
+      //   <img src="${integrante.avatar}" class="avatar">
+      // </div>
         // Agregar el swiper-slide al contenedor swiper-wrapper
         swiperWrapper.appendChild(slide);
       });
