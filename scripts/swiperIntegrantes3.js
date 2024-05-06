@@ -26,7 +26,7 @@ fetch('./json/integrantesGirola.json')
         slide.classList.add('swiper-slide');
 
         // Construir el contenido del swiper-slide con los datos del integrante
-        let cumpleanosHTML = `<p class="text-center">Cumpleaños: ${integrante.cumpleaños}`;
+        let cumpleanosHTML = `<p class="text-center">Cumpleaños: ${integrante.cumpleaños} `;
         // Verificar si es el cumpleaños de hoy
         if (integrante.cumpleaños) {
           const [day, month] = integrante.cumpleaños.split('-');
