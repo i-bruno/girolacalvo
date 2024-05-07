@@ -1,0 +1,108 @@
+{
+    "2022": [
+        {
+            "titEvento": "Pujoleada",
+            "lugar": "TAP",
+            "direccion": "Carlos Calvo 3619, CABA",
+            "horario": "",
+            "fecha": "2022/05/06",
+            "id": "pujoleada1",
+            "debut": [
+                {}
+            ]
+        },
+        {
+            "titEvento": "Festitap",
+            "lugar": "Galpon B",
+            "direccion": "Cochabamba 2536, CABA",
+            "horario": "23:15 hs",
+            "fecha": "2022/06/11",
+            "id": "festitap1",
+            "debut": [
+                {}
+            ]
+        },
+        {
+            "titEvento": "Pujoleada",
+            "lugar": "TAP",
+            "direccion": "Carlos Calvo 3619, CABA",
+            "horario": "",
+            "fecha": "2022/09/23",
+            "id": "pujoleada2",
+            "debut": [
+                {}
+            ]
+        },
+        {
+            "titEvento": "Tablado del ECUNHI",
+            "lugar": "ECUNHI",
+            "direccion": "Av. del Libertador 8151, CABA",
+            "horario": "",
+            "fecha": "2022/10/29",
+            "id": "ecunhi1",
+            "debut": [
+                {}
+            ]
+        },
+        {
+            "titEvento": "Festitap",
+            "lugar": "Galpón B",
+            "direccion": "Cochabamba 2536, CABA",
+            "horario": "",
+            "fecha": "2022/12/16",
+            "id": "festitap2",
+            "debut": [
+                {}
+            ]
+        }
+    ],
+    "2023": [
+        {
+            "titEvento": "Pujoleada",
+            "lugar": "TAP",
+            "direccion": "Carlos Calvo 3619, CABA",
+            "horario": "",
+            "fecha": "2023/05/06",
+            "id": "pujoleada3",
+            "debut": [
+                {}
+            ]
+        },
+        {
+            "titEvento": "Festitap",
+            "lugar": "Galpón B",
+            "direccion": "Cochabamba 2536, CABA",
+            "horario": "",
+            "fecha": "2023/07/07",
+            "id": "festitap3",
+            "debut": [
+                {}
+            ]
+        },
+        {
+            "titEvento": "Pujoleada",
+            "lugar": "TAP",
+            "direccion": "Carlos Calvo 3619, CABA",
+            "horario": "",
+            "fecha": "2023/09/09",
+            "id": "pujoleada4",
+            "debut": [
+                {}
+            ]
+        },
+        {
+            "titEvento": "Festitap",
+            "lugar": "Galpón B",
+            "direccion": "Cochabamba 2536, CABA",
+            "horario": "",
+            "fecha": "2023/12/16",
+            "id": "festitap4",
+            "debut": [
+                {}
+            ]
+        }
+    ],
+    "2024": [
+
+    ]
+}
