@@ -223,8 +223,6 @@ p {
 
 .listaFestitap > li::marker{
 	content:"→";
-  font-weight: bold;
-  font-size: small;
 }
 
 
