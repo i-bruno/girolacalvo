@@ -225,6 +225,11 @@ p {
 	content:"→";
 }
 
+.listaPresen > li > a{
+  text-decoration: none;
+  color: black;
+}
+
 
 /* Colores Girola Calvo 
 #9d98caff → Lila
