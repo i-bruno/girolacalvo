@@ -22,15 +22,10 @@ fetch('./json/integrantesGirola.json')
       return diffDays;
     }
 
-    // Función para ordenar los integrantes por fecha de cumpleaños
-    function sortByBirthday(a, b) {
-      const daysUntilA = daysUntilNextBirthday(a.cumpleaños);
-      const daysUntilB = daysUntilNextBirthday(b.cumpleaños);
-      return daysUntilA - daysUntilB;
-    }
-
     // Ordenar los integrantes por fecha de cumpleaños
-    const integrantesOrdenados = Object.values(data).flat().sort(sortByBirthday);
+    const integrantesOrdenados = Object.values(data)
+      .flat()
+      .sort((a, b) => daysUntilNextBirthday(a.cumpleaños) - daysUntilNextBirthday(b.cumpleaños));
 
     // Iterar sobre cada integrante y crear un swiper-slide
     integrantesOrdenados.forEach(integrante => {
@@ -64,7 +59,7 @@ fetch('./json/integrantesGirola.json')
       swiperWrapper.appendChild(slide);
     });
 
-    // Inicializar Swiper después de haber creado todos los swiper-slide
+    // Inicializar Swiper después de haber creado todas las tarjetas swiper
     const swiper = new Swiper('.swiper', {
       // Optional parameters
       direction: 'horizontal',
