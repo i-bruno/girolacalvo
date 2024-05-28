@@ -223,7 +223,7 @@ p {
 
 .listaFestitap > li::before{
 	content:"→";
-	margin-right:8px;
+  font-weight: bold;
 }
 
 
