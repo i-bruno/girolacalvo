@@ -221,7 +221,7 @@ p {
   list-style:none;
 }
 
-.listaFestitap > li::before{
+.listaFestitap > li::marker{
 	content:"→";
   font-weight: bold;
   font-size: small;
