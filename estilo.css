@@ -221,6 +221,10 @@ p {
   list-style-image: url('assets/icons/girola.svg');
 }
 
+.listaFestitap::marker{
+  width: 1rem;
+}
+
 /* Colores Girola Calvo 
 #9d98caff → Lila
 #f58634ff → Naranja
