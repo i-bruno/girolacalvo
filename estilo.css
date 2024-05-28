@@ -222,7 +222,7 @@ p {
 }
 
 .listaFestitap::marker{
-  width: 1rem;
+  width: 1rem !important;
 }
 
 /* Colores Girola Calvo 
