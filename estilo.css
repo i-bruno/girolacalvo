@@ -224,6 +224,7 @@ p {
 .listaFestitap > li::before{
 	content:"→";
   font-weight: bold;
+  font-size: small;
 }
 
 
