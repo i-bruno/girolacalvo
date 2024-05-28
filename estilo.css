@@ -217,11 +217,11 @@ p {
   width: 30vw;
 }
 
-.listaFestitap{
+.listaPresen{
   list-style:none;
 }
 
-.listaFestitap > li::marker{
+.listaPresen > li::marker{
 	content:"→";
 }
 
