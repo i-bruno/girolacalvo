@@ -218,12 +218,14 @@ p {
 }
 
 .listaFestitap{
-  list-style-image: url('assets/icons/girola.svg');
+  list-style:none;
 }
 
-.listaFestitap::marker{
-  width: 1rem !important;
+.listaFestitap > li::before{
+	content:"→";
+	margin-right:8px;
 }
+
 
 /* Colores Girola Calvo 
 #9d98caff → Lila
